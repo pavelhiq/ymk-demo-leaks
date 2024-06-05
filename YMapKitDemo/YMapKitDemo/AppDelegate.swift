@@ -34,6 +34,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         YMKMapKit.sharedInstance().onStop()
     }
+
+    func applicationDidReceiveMemoryWarning(_ application: UIApplication) {
+        os_log(
+            "Did receive memory warning!",
+            log: OSLog.mapkitLog,
+            type: .default
+        )
+    }
     
     // MARK: - Internals
     

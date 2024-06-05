@@ -61,7 +61,7 @@ final class MapViewController: UIViewController {
 
 final private class MapObjectTapListener: NSObject, YMKMapObjectTapListener {
     
-    private let viewController: UIViewController
+    private weak var viewController: UIViewController?
     
     init(viewController: UIViewController) {
         self.viewController = viewController

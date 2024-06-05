@@ -14,6 +14,8 @@
 		8AC95A9B2BFF476A0048A580 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8AC95A9A2BFF476A0048A580 /* Base */; };
 		8AC95AA32BFFEDA80048A580 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC95AA22BFFEDA80048A580 /* MapViewController.swift */; };
 		8AC95AA52BFFF0BC0048A580 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC95AA42BFFF0BC0048A580 /* Logger.swift */; };
+		8AC999FE2C08B8C70048A580 /* MapPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC999FD2C08B8C70048A580 /* MapPreviewViewController.swift */; };
+		8AC99A002C0A0BC60048A580 /* ResourcePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC999FF2C0A0BC60048A580 /* ResourcePool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8AC95A9C2BFF476A0048A580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AC95AA22BFFEDA80048A580 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8AC95AA42BFFF0BC0048A580 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		8AC999FD2C08B8C70048A580 /* MapPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPreviewViewController.swift; sourceTree = "<group>"; };
+		8AC999FF2C0A0BC60048A580 /* ResourcePool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcePool.swift; sourceTree = "<group>"; };
 		C3A08AE997E01FDDD645A0B4 /* Pods_YMapKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMapKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79871FE75ACF19A7073DCCF /* Pods-YMapKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMapKitDemo.release.xcconfig"; path = "Target Support Files/Pods-YMapKitDemo/Pods-YMapKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,8 @@
 				8AC95A8E2BFF47690048A580 /* AppDelegate.swift */,
 				8AC95A922BFF47690048A580 /* MainViewController.swift */,
 				8AC95AA22BFFEDA80048A580 /* MapViewController.swift */,
+				8AC999FD2C08B8C70048A580 /* MapPreviewViewController.swift */,
+				8AC999FF2C0A0BC60048A580 /* ResourcePool.swift */,
 				8AC95AA42BFFF0BC0048A580 /* Logger.swift */,
 				8AC95A972BFF476A0048A580 /* Assets.xcassets */,
 				8AC95A992BFF476A0048A580 /* LaunchScreen.storyboard */,
@@ -207,8 +213,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC95A932BFF47690048A580 /* MainViewController.swift in Sources */,
+				8AC999FE2C08B8C70048A580 /* MapPreviewViewController.swift in Sources */,
 				8AC95AA32BFFEDA80048A580 /* MapViewController.swift in Sources */,
 				8AC95A8F2BFF47690048A580 /* AppDelegate.swift in Sources */,
+				8AC99A002C0A0BC60048A580 /* ResourcePool.swift in Sources */,
 				8AC95AA52BFFF0BC0048A580 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,7 +365,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MMD97WB5PT;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -391,7 +399,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MMD97WB5PT;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
